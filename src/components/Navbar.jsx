@@ -12,8 +12,8 @@ import {
 } from "react-icons/fa";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(true);
-  const [logo, setLogo] = useState(true);
+  const [nav, setNav] = useState(false);
+  const [logo, setLogo] = useState(false);
   const handleNav = () => {
     setNav(!nav);
     setLogo(!logo);
